@@ -15,8 +15,8 @@ app.get('/location', (request, response) => {
   try {
     const loc = returnLocation(request.query.data);
     response.status(200).send(loc);
-  } catch (exception) {
-    response.status(400).send('Error in location object');
+  } catch (err) {
+    response.status(500).send('Sorry, something went wrong with /location');
   }
 
 });
@@ -27,8 +27,12 @@ app.get('/weather', (request, response) => {
     const weather = returnWeather(request.query.data);
     response.status(200).send(weather);
   } catch (err) {
-    response.status(400).send('Error in weather object');
+    response.status(500).send('Sorry, something went wrong with /weather');
   }
+});
+
+app.use('*', (request, response) => {
+  response.status(500).send('Sorry, something went wrong');
 });
 
 const returnLocation = (locationName) => {

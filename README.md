@@ -43,8 +43,8 @@ Number and name of feature: #4 Errors
 
 Estimate of time needed to complete: 1:00
 
-Start time: 11:50AM
+Start time: 11:55AM
 
-Finish time: 11:40AM
+Finish time: 12:10PM
 
-Actual time needed to complete: 00:50
+Actual time needed to complete: 00:15
