@@ -9,6 +9,7 @@ const PORT = process.env.PORT;
 
 const app = express();
 app.use(cors());
+app.use(express.static('public'));
 
 app.get('/location', (request, response) => {
   console.log('Location data: ', request.query.data);
