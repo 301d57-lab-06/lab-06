@@ -1,10 +1,24 @@
 # lab-06
 
-Number and name of feature: ________________________________
+## Repository Setup
 
-Estimate of time needed to complete: _____
+Number and name of feature: #1 Repository Setup
 
-Start time: _____
+Estimate of time needed to complete: 00:30
+
+Start time: 0900AM
+
+Finish time: 0930AM
+
+Actual time needed to complete: 00:30
+
+## Locations
+
+Number and name of feature: #2 Locations
+
+Estimate of time needed to complete: 1:00
+
+Start time: 09:40AM
 
 Finish time: _____
 
